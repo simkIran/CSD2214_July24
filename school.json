@@ -2,9 +2,9 @@
     "school": {
         "students": [
 
-            { "class1": "Kiran", "class2": "SimKiran" },
-            { "class3": "Anjali", "class4": "SimKiran" },
-            { "class5": "Kiran", "class6": "SimKiran" }
+            { "class1": ["Kiran", "Simran", "SimKiran"] },
+            { "class2": ["Anjali", "Love", "Lovey"] },
+            { "class3": ["Kiran", "Simran", "SimKiran"] }
         ]
     }
 }
