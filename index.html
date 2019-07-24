@@ -9,7 +9,7 @@
 <body>
     <h1>Welcome to AJAX</h1>
     <script type="text/javascript">
-        var obj1 = {
+        var myfriends = {
             "friends": [{
                 "firstName": "Kiran",
                 "lastName": "Dhesi"
@@ -24,8 +24,12 @@
                 "lastName": "Dhesi"
             }]
         };
-        for (i = 0; i++; i < friends.length)
-            console.log(obj1);
+        var users = myfriends.friends;
+        var html = ' ';
+        for (i = 0; i < myfriends.friends.length; i++) {
+            html += ' ' + myfriends(myfriends.friends[i].firstName);
+        }
+        document.getElementById("output").innerHTML = html;
     </script>
 </body>
 
